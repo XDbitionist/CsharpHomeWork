@@ -3,16 +3,15 @@ a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3 */
 Console.Clear();
-Console.WriteLine("Введите 2 числа, чтобы определить максимальное: ");
-int number = Convert.ToInt32(Console.ReadLine());
-int num = Convert.ToInt32(Console.ReadLine());
-if (number > num)
+int a = -9;
+int b = -3;
+if (a > b)
 {
-    Console.Write("MAX: ");
-    Console.Write(number);
+    Console.Write("max = ");
+    Console.Write(a);
 }
-if (number < num)
+if (a < b)
 {
-     Console.Write("MAX: ");
-    Console.Write(num);
+    Console.Write("max = ");
+    Console.Write(b);
 }
